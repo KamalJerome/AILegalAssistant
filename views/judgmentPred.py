@@ -12,7 +12,7 @@ from keras.models import Model
 import tensorflow as tf  # Import TensorFlow for math operations
 
 # Set API key for LLM
-api_key = 'bb1b45095f0459af3dc33743c083e9d8ae15be886fd859a6a049a826a1f8746c'
+api_key = '4787575f7f7a6e50baba23882aaea7a3a66486e2849b4c03d9e94fac6b25dfb1'
 mistral_llm = Together(model="mistralai/Mixtral-8x22B-Instruct-v0.1", temperature=0.5, max_tokens=1024, together_api_key=api_key)
 
 # Attention Layer for the Bi-GRU model
